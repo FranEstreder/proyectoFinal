@@ -15,35 +15,105 @@
 </head>
 
 <body>
+	
+	<div class="container">
+		<div id="header" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<!-- <img src="#" alt="Logo Principal" id="logoPrincipal"> -->
+		</div>
+
+		<div id="principal">
+
+			<div id="fraseEmpresa" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<h1>Gestiona tus redes al mismo tiempo</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			</div>
+
+			<div id="divInicioSesion" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<h2>Inicia sesión con tu correo</h2>
+				<hr>
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalInicio" id="botonIni">Iniciar sesión</button>
+				<hr>
+				<p>¿Nuevo en la página? <a href="#" data-toggle="modal" data-target="#modalRegistro">Regístrate aquí</a></p>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Modal de Inicio-->
+ 	<div id="modalInicio" class="modal fade" role="dialog">
+   		<div class="modal-dialog">
+ 
+ 	    	<!-- Modal content-->
+ 	    	<div class="modal-content">
+ 	      		<div class="modal-header">
+ 	        		<h2 class="modal-title">Inicio de Sesión</h2>
+ 	        		<button type="button" class="close" data-dismiss="modal">&times;</button> 	        		
+ 	      		</div>
+ 	      		<div class="modal-body">
+ 	        		<!-- Contenido del modal -->
+ 	        		<form method="post" id="formIni" action="#">
+ 	        			<label for="emailInicioSesion">Email</label><br>
+ 	        			<input type="text" class="form-control" name="emailInicioSesion" id="emailInicioSesion" maxlength="50"><br>
+ 	        			<label for="passInicioSesion">Contraseña</label><br>
+ 	        			<input type="password" name="passInicioSesion" class="form-control" id="passInicioSesion" maxlength="50"><br>
+ 	        			<label for="recordar" class="checkbox-inline">
+ 	        				<input type="checkbox" name="recordar" id="recordar">Recuérdame
+ 						</label>
+						<input style="position: absolute; top: -50000px;" type="submit" value="Iniciar Sesion">
+ 	        		</form>
+ 	        		<div id="errorIni"></div>
+ 	      		</div>
+ 	      		<div class="modal-footer">
+ 	      			<button type="button" class="btn btn-primary" id="botonIni">Iniciar Sesión</button>
+ 	        		<button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+ 	      		</div>
+ 	    	</div>
+ 
+   		</div>
+ 	</div>
+
+ 	<!-- Modal de Registro-->
+ 	<div id="modalRegistro" class="modal fade" role="dialog">
+   		<div class="modal-dialog">
+ 
+ 	    	<!-- Modal content-->
+ 	    	<div class="modal-content">
+ 	      		<div class="modal-header">
+ 	        		<h2 class="modal-title">Regístrate</h2>
+ 	        		<button type="button" class="close" data-dismiss="modal">&times;</button> 	        		
+ 	      		</div>
+ 	      		<div class="modal-body">
+ 	        		<!-- Contenido del modal -->
+ 	        		<form method="post" id="formReg" action="#">
+ 	        			<label for="nom">Nombre</label><br>
+ 	        			<input type="text" class="form-control" name="nom" id="nom" maxlength="50"><br>
+ 	        			<label for="apellidos">Apellidos</label><br>
+ 	        			<input type="text" class="form-control" name="apellidos" id="apellidos" maxlength="50"><br>
+ 	        			<label for="correo">Email</label><br>
+ 	        			<input type="text" class="form-control" name="correo" id="correo" maxlength="50"><br>
+ 	        			<label for="pass1">Contraseña</label><br>
+ 	        			<input type="password" name="pass1" class="form-control" id="pass1" maxlength="50"><br>
+ 	        			<label for="pass2">Repite la Contraseña</label><br>
+ 	        			<input type="password" name="pass2" class="form-control" id="pass2" maxlength="50"><br>
+						<input style="position: absolute; top: -50000px;" type="submit" value="Crear Cuenta">
+ 	        		</form>
+ 	        		<div id="errorReg"></div>
+ 	      		</div>
+ 	      		<div class="modal-footer">
+ 	      			<button type="button" class="btn btn-primary" id="botonReg">Crear Cuenta</button>
+ 	        		<button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+ 	      		</div>
+ 	    	</div>
+ 
+   		</div>
+ 	</div>
+
+
+
+	<footer>
+		
+	</footer>
 
 </body>
-
-	<div id="header" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-		<!-- <img src="#" alt="Logo Principal" id="logoPrincipal"> -->
-	</div>
-
-	<div id="principal">
-		<!-- Esta imagen es la que va de background, no aquí puesta -->
-		<!-- <img src="#" id="bannerImg" alt="Banner Principal"> -->
-		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
-
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-			<h1>Gestiona todas tus redes al mismo tiempo</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-		</div>
-
-		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
-
-		<div id="divInicioSesion" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-			<h2>Inicia sesión con tu correo</h2>
-			<hr>
-			<button type="button" class="btn btn-primary">Iniciar sesión</button>
-			<hr>
-			<p>¿Nuevo en la página?<a href="#">Regístrate aquí ahora</a></p>
-		</div>
-
-		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
-	</div>
 
 </html>

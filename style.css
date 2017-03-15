@@ -26,14 +26,22 @@
 /*Estilo del cuerpo de la página*/
 
 #principal{
-	margin-top: 20px;
 	background-color: grey;
 	width: 100%;
 }
 
+#fraseEmpresa{
+	margin: auto;
+	padding: 20px;
+	vertical-align: middle;
+}
+
 #divInicioSesion{
 	background-color: white;
+	margin: auto;
+	vertical-align: middle;
 	border-radius: 7px;
+	padding: 20px;
 }
 
 /*Fin del estilo del cuerpo de la página*/
