@@ -108,6 +108,41 @@
    		</div>
  	</div>
 
+ 	<!-- Modal de Contacto-->
+		<div id="modalCont" class="modal fade" role="dialog">
+	  		<div class="modal-dialog">
+
+			    <!-- Modal content-->
+			    <div class="modal-content">
+	      			<div class="modal-header">
+	        			<h4 class="modal-title">Contacta con Nosotros</h4>
+	        			<button type="button" class="close" data-dismiss="modal">&times;</button>
+	      			</div>
+		      		<div class="modal-body">
+						<form method="post" id="formCont" action="https://nevereat.tk/api.php?method=contact">
+	 	        			<label for="nomCont">Nombre</label><br>
+	 	        			<input type="text" class="form-control" name="nomCont" id="nomCont" maxlength="50"><br>
+	 	        			<label for="correoCont">Email</label><br>
+	 	        			<input type="text" name="correoCont" class="form-control" id="correoCont" maxlength="50"><br>
+	 	        			<label for="comentario">Comentario (Máximo 500 caracteres)</label>
+  							<textarea class="form-control" rows="5" id="comentario" maxlength="500"></textarea>
+  							<div id="textarea_feedback"></div>
+							<input style="position: absolute; top: -50000px;" type="submit" value="Iniciar Sesion">
+ 	        			</form>
+ 	        			<div id="errorCont"></div>
+
+		      		</div>
+		  			<div class="modal-footer">
+		  				<button type="button" class="btn btn-primary" id="botonCont">Enviar</button>
+		        		<button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+		      		</div>
+	    		</div>
+
+	  		</div>
+		</div>
+
+
+
 
 
 	<footer>
