@@ -1,9 +1,9 @@
 /*Quitamos márgenes y padding a todo*/
-* {
+/** {
     padding: 0px;
 	margin: 0px;
     box-sizing: border-box;
-}
+}*/
 
 /*Estilo del body*/
 
@@ -25,15 +25,15 @@
 
 /*Estilo del cuerpo de la página*/
 
-#principal{
+/*#principal{
 	background-color: grey;
 	width: 100%;
 	display: table;
 }
 
 #fraseEmpresa{
-	/*margin: auto;*/
-	/*padding: 20px;*/
+	margin: auto;
+	padding: 20px;
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -41,10 +41,10 @@
 #divInicioSesion{
 	display: table-cell;
 	background-color: white;
-	/*margin: auto;*/
+	margin: auto;
 	vertical-align: middle;
 	border-radius: 7px;
-	/*padding: 20px;*/
-}
+	padding: 20px;
+}*/
 
 /*Fin del estilo del cuerpo de la página*/
