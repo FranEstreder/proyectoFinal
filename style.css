@@ -1,50 +1,85 @@
 /*Quitamos márgenes y padding a todo*/
-/** {
+* {
     padding: 0px;
 	margin: 0px;
     box-sizing: border-box;
-}*/
+}
+
+body, html{
+	margin: 0px;
+	height: 100%;
+	height: auto !important;
+}
 
 /*Estilo del body*/
 
-/*body{
-	background-image: url("bannerPrincipal.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 100%;
-	height: 100%;
+body{
+	background: rgba(255, 255, 51, 0.3) url('Img/rrssYellow.jpg') no-repeat fixed center;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
-*/
+
+.colorFondo{
+	background: rgba(255, 255, 51, 0.3);
+	height: 100vh;
+}
+
 /*Fin del estilo del body*/
 
 /*Estilo del header*/
 
-
+#header{
+	height: 45px;
+	display: block;
+}
 
 /*Fin del estilo del header*/
 
 /*Estilo del cuerpo de la página*/
 
-/*#principal{
-	background-color: grey;
-	width: 100%;
-	display: table;
+.container-fluid{
+	padding: 0px;
+}
+
+#principal{
+	/*background-color: grey;*/
+	margin-top: 125px;
+	margin-right: 10%;
+	margin-left: 10%;
+	position: relative;
 }
 
 #fraseEmpresa{
-	margin: auto;
-	padding: 20px;
-	display: table-cell;
-	vertical-align: middle;
-}
+	color: black;
+/*	display: block;
+	left: 0;
+*/}
 
 #divInicioSesion{
-	display: table-cell;
+/*	display: inline-block;
+	width: 330px;
+	position: absolute;
+*/
+	right: 0;
 	background-color: white;
-	margin: auto;
-	vertical-align: middle;
-	border-radius: 7px;
-	padding: 20px;
-}*/
+	border-radius: 10px;
+}
+
+#footer{
+	background-color: grey;
+	height: 45px;
+	position: fixed;
+	bottom: 0;
+}
 
 /*Fin del estilo del cuerpo de la página*/
+
+/*ESTILOS INDIVIDUALES*/
+
+#botonIni{
+	width: 100%;
+}
+
+/*FIN DE LOS ESTILOS INDIVIDUALES*/
