@@ -1,17 +1,11 @@
-/*Quitamos márgenes y padding a todo*/
+/*QUITAMOS MÁRGENES Y PADDING A TODO*/
 * {
     padding: 0px;
 	margin: 0px;
     box-sizing: border-box;
 }
 
-body, html{
-	margin: 0px;
-	height: 100%;
-	height: auto !important;
-}
-
-/*Estilo del body*/
+/*ESTULO DEL BODY*/
 
 body{
 	background: rgba(255, 255, 51, 0.3) url('Img/rrssYellow.jpg') no-repeat fixed center;
@@ -26,25 +20,32 @@ body{
 	height: 100vh;
 }
 
-/*Fin del estilo del body*/
+/*FIN DEL ESTILO DEL BODY*/
 
-/*Estilo del header*/
+/*ESTILO DEL HEADER*/
 
 #header{
 	height: 45px;
 	display: block;
 }
 
-/*Fin del estilo del header*/
+#header img{
+	position: absolute;
+	top: 6px;
+	margin-left: 10%;	
+	width: 124px;
+	height: 34px;
+}
 
-/*Estilo del cuerpo de la página*/
+/*FIN DEL ESTILO DEL HEADER*/
+
+/*ESTILO DEL CUERPO DE LA PÁGINA*/
 
 .container-fluid{
 	padding: 0px;
 }
 
 #principal{
-	/*background-color: grey;*/
 	margin-top: 125px;
 	margin-right: 10%;
 	margin-left: 10%;
@@ -53,33 +54,48 @@ body{
 
 #fraseEmpresa{
 	color: black;
-/*	display: block;
-	left: 0;
-*/}
+}
+
+#fraseEmpresa h1{
+	font-size: 45px;
+
+}
+
+#fraseEmpresa p{
+	font-size: 20px;
+}
 
 #divInicioSesion{
-/*	display: inline-block;
-	width: 330px;
-	position: absolute;
-*/
 	right: 0;
 	background-color: white;
 	border-radius: 10px;
 }
 
 #footer{
-	background-color: grey;
+	text-align: center;
+	width: 100%;
 	height: 45px;
 	position: fixed;
 	bottom: 0;
 }
 
-/*Fin del estilo del cuerpo de la página*/
+#footer span a, #footer img{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+/*FIN DEL ESTILO DEL CUERPO DE LA PÁGINA*/
 
 /*ESTILOS INDIVIDUALES*/
 
 #botonIni{
 	width: 100%;
+}
+
+.imgFooter{
+	height: 35px;
+	width: 100px;
+	vertical-align: middle;
 }
 
 /*FIN DE LOS ESTILOS INDIVIDUALES*/

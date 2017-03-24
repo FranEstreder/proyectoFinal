@@ -1,0 +1,101 @@
+/*QUITAMOS MÁRGENES Y PADDING A TODO*/
+* {
+    padding: 0px;
+	margin: 0px;
+    box-sizing: border-box;
+}
+
+/*ESTILO DEL BODY*/
+
+body{
+	background: rgba(255, 255, 51, 0.3) url('Img/rrssYellow.jpg') no-repeat fixed center;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.colorFondo{
+	background: rgba(255, 255, 51, 0.3);
+	height: 100vh;
+}
+
+/*FIN DEL ESTILO DEL BODY*/
+
+/*ESTILO DEL HEADER*/
+
+#header{
+	height: 45px;
+	display: block;
+}
+
+#header img{
+	position: absolute;
+	top: 6px;
+	margin-left: 10%;	
+	width: 124px;
+	height: 34px;
+}
+
+/*FIN DEL ESTILO DEL HEADER*/
+
+/*ESTILO DEL CUERPO DE LA PÁGINA*/
+
+.container-fluid{
+	padding: 0px;
+}
+
+#principal{
+	margin-top: 125px;
+	margin-right: 10%;
+	margin-left: 10%;
+	position: relative;
+}
+
+#fraseEmpresa{
+	color: black;
+}
+
+#fraseEmpresa h1{
+	font-size: 45px;
+
+}
+
+#fraseEmpresa p{
+	font-size: 20px;
+}
+
+#divInicioSesion{
+	right: 0;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#footer{
+	text-align: center;
+	width: 100%;
+	height: 45px;
+	position: fixed;
+	bottom: 0;
+}
+
+#footer span a, #footer img{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+/*FIN DEL ESTILO DEL CUERPO DE LA PÁGINA*/
+
+/*ESTILOS INDIVIDUALES*/
+
+#botonIni{
+	width: 100%;
+}
+
+.imgFooter{
+	height: 35px;
+	width: 100px;
+	vertical-align: middle;
+}
+
+/*FIN DE LOS ESTILOS INDIVIDUALES*/

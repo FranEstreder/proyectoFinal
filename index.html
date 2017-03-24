@@ -3,7 +3,7 @@
 
 <head>
 
-	<title>Home</title>
+	<title>Landing</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
@@ -18,7 +18,7 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="styleIndex.css">
 
 </head>
 
@@ -27,7 +27,7 @@
 	<div class="colorFondo">
 
 		<div id="header">
-			<!-- <img src="#" alt="Logo Principal" id="logoPrincipal"> -->
+			<img src="img/cuadrado.jpg" alt="Logo Principal" id="logoPrincipal">
 		</div>
 
 		<div class="container-fluid" id="principal">
@@ -50,7 +50,8 @@
 		</div>
 
 		<div id="footer">
-			<span><a href="">Aviso legal</a> | <a href="">Política de Cookies</a> | Contáctanos</span>
+
+			<span><a href="#">Aviso legal</a> | <a href="#">Política de Cookies</a> | <a href="#" data-toggle="modal" data-target="#modalCont">Contáctanos</a></span> | <img src="img/cuadrado.jpg" alt="logo WAI" class="imgFooter"> | <img src="img/cuadrado.jpg" alt="logo TAW" class="imgFooter">
 
 		</div>
 
@@ -130,8 +131,8 @@
 				    <!-- Modal content-->
 				    <div class="modal-content">
 		      			<div class="modal-header">
+		      				<button type="button" class="close" data-dismiss="modal">&times;</button>
 		        			<h4 class="modal-title">Contacta con Nosotros</h4>
-		        			<button type="button" class="close" data-dismiss="modal">&times;</button>
 		      			</div>
 			      		<div class="modal-body">
 							<form method="post" id="formCont" action="https://nevereat.tk/api.php?method=contact">
