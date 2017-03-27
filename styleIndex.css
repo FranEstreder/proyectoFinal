@@ -12,7 +12,6 @@ body{
 	background-size: cover;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
 }
 
 .colorFondo{
@@ -75,7 +74,7 @@ body{
 	text-align: center;
 	width: 100%;
 	height: 45px;
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 }
 
@@ -98,4 +97,58 @@ body{
 	vertical-align: middle;
 }
 
+.colorBotones{
+	background-color: grey;
+}
+
 /*FIN DE LOS ESTILOS INDIVIDUALES*/
+
+/*COLORES EXTRAS DE BOOTSTRAP PARA LOS BOTONES*/
+
+.btn-sample { 
+  color: #ffffff; 
+  background-color: #3C008A; 
+  border-color: #130269; 
+} 
+ 
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #ffffff; 
+  background-color: #49247A; 
+  border-color: #130269; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #3C008A; 
+  border-color: #130269; 
+} 
+ 
+.btn-sample .badge { 
+  color: #3C008A; 
+  background-color: #ffffff; 
+}
+
+/*FIN DE LOS COLORES EXTRAS DE BOOTSTRAP PARA LOS BOTONES*/
